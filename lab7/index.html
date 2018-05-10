@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Lab7</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="jquerymethods.js"></script>
+</head>
+<body>
+	<header>
+		<h1>AIT LAB<h1>
+		<h3>Subtitle: Lab 7</h3>
+	</header>
+	<nav>
+		<div class="button">HOME</div>
+		<div class="button" onclick="showMenu()">ARTICLES</div>
+		<div class="button">ABOUT</div>
+	</nav>
+
+	<div id="submenu">
+		<div class="item" onclick="onclickItem('.maincenter')">Article1</div>
+		<div class="item" onclick="onclickItem('.second')">Article2</div>
+	</div>
+
+	
+	<article class="maincenter">
+		<div id="subhead">
+			<h1>COMPUTER SCIENCE FACULTY</h1>
+			<h3>Msc Computer Science</h3>
+		</div>
+		<aside>
+			<img src="unibz_logo.jpg">
+			<p id="logo">unibz logo</p>
+		</aside>
+		<section>
+			<p>In our master you will not only learn about techniques and methods to develop complex software and to manage large amounts of data; you also participate in cutting-edge research projects and work closely together with leading experts.    
+  
+			<p onclick="toggler()"> Read more...</p>
+
+			 <p id="togg">Although we do not always notice it, software and data have become ubiquitous in our daily lives. For example, we use Facebook, Twitter, and WhatsApp to communicate with friends; we let global positioning systems (GPS) guide us on our car journeys, and we trust life-critical air traffic control systems to take us safely to our destination.
+
+Just to give you an idea of the scale of this, here's some figures: in 2012, 2.5 Exabytes (that is 2.5 billion Gigabytes) of data was generated every single day and a system such as MacOS X contains more than 80 million lines of code. That is why there’s the need to develop intelligent software and systems to store, retrieve, manage and make sense of these data. Designing, engineering and updating software requires sophisticated tools and methods that you will learn to apply in this two-year study programme.</p>
+			
+		</section>
+	</article>
+
+
+
+
+	<article class="second">
+		<div >
+			<h1>STRUCTURE OF THE COURSE</h1>
+			<h3> Study plans</h3>
+		<section>
+			<p> Students can choose between two different programmes: Data and Knowledge Engineering (DKM) or Software Engineering and IT Management (SEITM).
+
+The DKE programme covers topics such as Advanced Database Management Technologies, Data and Process Modeling, Data Mining, Information Search and Retrieval, Semantic Technologies. The SEITM programme includes topics such as Requirements and Design of Software Systems, Software Process Management, Software Reliability and Testing, Systems Engineering. Some of the courses, such as Advanced Internet Technologies and Human Machine Interaction, are shared by both programmes. </p>
+		</section>
+	</article>
+
+
+	<footer id="idDown">Libera Unibersita di Bolzano, 2018</footer>
+</body>
+</html>
